@@ -3,7 +3,7 @@ Resources:
   - TargetService:
       Type: AWS::ECS::Service
       Properties:
-        TaskDefinition: "<TASK_DEFINITION>"
+        TaskDefinition: "arn:aws:ecs:us-west-2:885629272022:task-definition/nginx-app:1"
         LoadBalancerInfo:
           ContainerName: "TASK_FAMILY"
           ContainerPort: 80

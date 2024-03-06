@@ -1,4 +1,4 @@
-FROM public.ecr.aws/nginx/nginx:alpine
+FROM nginx:alpine
 
 COPY nginx.conf /etc/nginx/nginx.conf 
 COPY index.html /usr/share/nginx/html
